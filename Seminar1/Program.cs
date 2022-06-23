@@ -34,6 +34,7 @@ else
 */
 /*
 
+
 int num;
 
 Console.Write("Введите число: ");
