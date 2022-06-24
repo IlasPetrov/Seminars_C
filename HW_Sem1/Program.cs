@@ -36,6 +36,43 @@ if (num3 > max) max = num3;
 Console.WriteLine("" + max);
 
 */
+/*
+//Задача №6
+
+Console.WriteLine("Введите число: ");
+int num = Convert.ToInt32(Console.ReadLine());
+
+int temp = num % 2;
+
+if(temp == 0)
+{
+    Console.WriteLine("Чётное");
+}
+else
+{
+    Console.WriteLine("Нечётное");
+}
+
+*/
+
+int Start = 1;
+int count = 0;
+Console.WriteLine("Пороговое значение: ");
+int N = Convert.ToInt32(Console.ReadLine());
+
+while(Start <= N)
+{
+    if(Start % 2 == 0)
+    {
+        count++;
+    }
+    else
+    {
+        Start++;
+    }
+}
+
+Console.WriteLine("Кол-во чётных чисел: " + count);
 
 
 
