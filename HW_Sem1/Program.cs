@@ -54,6 +54,8 @@ else
 }
 
 */
+/*
+// Задача №8
 
 int Start = 1;
 int count = 0;
@@ -65,6 +67,7 @@ while(Start <= N)
     if(Start % 2 == 0)
     {
         count++;
+        Start++;
     }
     else
     {
@@ -74,5 +77,6 @@ while(Start <= N)
 
 Console.WriteLine("Кол-во чётных чисел: " + count);
 
+*/
 
 
